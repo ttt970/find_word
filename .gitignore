@@ -14,3 +14,6 @@ core
 *.swp
 .DS_Store
 Thumbs.db
+
+# Office 临时锁文件（打开 .doc/.docx 时自动生成）
+~$*
