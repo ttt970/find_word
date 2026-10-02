@@ -78,3 +78,7 @@ abandon          v.  go away from (a person or thing or place) not intending to 
 - 目前为顺序扫描，单次查询复杂度 O(n)。可将词表一次性预加载进哈希表，把查询降到均摊 O(1)
 - 每次查询都会重新打开词库文件，可优化为常驻句柄
 - 支持从命令行参数直接传入待查词、支持批量查询
+
+## License
+
+本项目基于 [MIT License](LICENSE) 开源。
