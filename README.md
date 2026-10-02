@@ -13,13 +13,9 @@
 
 ## 效果
 
-```
-请输入要查找的单词(q退出):
-abacus
-    abacus:    n.frame with beads that slide along parallel rods, used for teaching numbers to children, and (in some countries) for counting
-```
+![运行效果](demo.png)
 
-> 实际终端中，单词显示为青色加粗，释义显示为绿色。
+在 Ubuntu 终端中 `make` 编译后运行：依次查询 `zoo`、`heal`、`search`，输入 `q` 退出。单词显示为青色加粗，释义显示为绿色。
 
 ## 目录结构
 
@@ -30,6 +26,7 @@ abacus
 | `search.h` | 对外接口声明 |
 | `Makefile` | 构建脚本 |
 | `dict.txt` | 词库数据（纯文本，约 2 万条） |
+| `demo.png` | 运行效果截图 |
 
 ## 编译与运行
 
