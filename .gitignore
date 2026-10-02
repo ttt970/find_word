@@ -1,0 +1,16 @@
+# 编译产物
+dict
+*.o
+*.exe
+a.out
+
+# 调试文件
+core
+*.core
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
